@@ -139,7 +139,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2 col-md-offset-3"><a href="donate.html"><button class="blue-button"><em>Donate</em></button></a></div>
+                <div class="col-md-2 col-md-offset-3">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="NSH8WEGY3A7JU">
+                    <button class="blue-button"><em>Donate</em></button>
+                  </form>
+                </div>
                 <div class="col-md-2 col-md-offset-2"><a href="aboutus.html"><button class="blue-button"><em>Read More</em></button></a></div>
             </div>
         </div>
@@ -240,11 +246,16 @@
           <div class="container-fluid">
               <div class="row">
                   <div class="col-md-8 col-md-offset-2">
-          <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non ligula non ante scelerisque aliquet ut at velit. Quisque et tempus orci. Fusce quis sodales est. Donec a porttitor tortor. Curabitur congue lectus a enim varius, a interdum odio dapibus.</p>
+                      <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non ligula non ante scelerisque aliquet ut at velit. Quisque et tempus orci. Fusce quis sodales est. Donec a porttitor tortor. Curabitur congue lectus a enim varius, a interdum odio dapibus.</p>
                   </div>
               </div>
 
-              <a href="donate.html"><button class="blue-button"><em>Donate</em></button></a>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="NSH8WEGY3A7JU">
+                  <button class="blue-button"><em>Donate</em></button>
+              </form>
+
           </div>
       </div>
 
@@ -253,9 +264,11 @@
         <div class="container">
             <div class="row contact-info-row text-center">
                 <div class="col-md-3 col-md-offset-6">
+                    <i class="fa fa-phone"></i>
                     <a href="tel:184497378278">1 (844) 9-RESTART</a>
                 </div>
                 <div class="col-md-3">
+                    <i class="fa fa-envelope"></i>
                     <a href="mailto:crisis@restart-recovery.org">crisis@restart-recovery.org</a>
                 </div>
             </div>
