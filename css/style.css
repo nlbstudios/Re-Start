@@ -125,6 +125,7 @@ ul, ol{
     color:black;
 }
 
+
 #tf-menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -279,7 +280,10 @@ padding-bottom:15px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #FFF;
+  margin:2% 0 0 0;
 }
+
+
 
 #tf-home h1{
     font-size:: 45px;
@@ -287,8 +291,20 @@ padding-bottom:15px;
 
 .main-button-div{
     background-color:rgba(255,255,255,.5);
-    margin: 10% 0 0 0;
+    margin: 5% 0 4% 0;
     bottom: 20px;
+}
+
+@media (max-width: 496px){
+    #tf-home{
+        background-size:auto 500px;
+        background-position:top;
+        margin: 9% 0 0 0;
+    }
+    .main-button-div{
+        background-color:rgba(255,255,255,0);
+        margin: 5% 0 1% 0;
+    }
 }
 
 #tf-home .overlay{
