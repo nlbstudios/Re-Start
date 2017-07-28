@@ -6,7 +6,7 @@ $field_phone = $_POST['cf_phone'];
 $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
 
-$mail_to = 'admin@restart-recovery.org';
+$mail_to = 'crisis@restart-recovery.org';
 $subject = 'Mentor Request';
 
 $body_message = 'From: '.$field_name."\n";

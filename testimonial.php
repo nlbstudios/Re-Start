@@ -4,7 +4,7 @@
 $field_name = $_POST['cf_name'];
 $field_message = $_POST['cf_message'];
 
-$mail_to = 'admin@restart-recovery.org';
+$mail_to = 'crisis@restart-recovery.org';
 $subject = 'Testimonial Submission';
 
 $body_message = 'From: '.$field_name."\n";
