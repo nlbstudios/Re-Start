@@ -249,6 +249,14 @@ padding-bottom:15px;
     padding:0 0 0 10px;
 }
 
+.testimonial-section #name{
+    height:30px;
+}
+
+.testimonial-section #message{
+    min-height:70px;
+}
+
 .about-image-separator{
 	  background: url(../img/sep-pattern.jpg);
     background-size: cover;
